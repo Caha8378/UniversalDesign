@@ -1,2 +1,0 @@
-# UniversalDesign
- IntroUniversalDesign
