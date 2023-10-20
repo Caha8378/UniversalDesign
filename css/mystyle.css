@@ -10,13 +10,13 @@ body {
   }
 
   p {
-    color: #B84B23;
+    color: #003B4A;
     line-height: 1.3em;
   }
 
-  a:link {
-    color: #B84B23;
-  }
+a:link {
+    color: #003B4A;
+}
 
   .container{
     max-width: 960px;
@@ -24,15 +24,15 @@ body {
     
     
   }
-  
-   
-  h1, 
-  h2, 
-  h3 {
-    color: #B84B23;
+
+
+h1,
+h2,
+h3 {
+    color: #003B4A;
     margin-left: 10px;
     font-family: 'Zilla Slab', serif;
-  }
+}
 
 
   .sr-only {
