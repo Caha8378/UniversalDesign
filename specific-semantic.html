@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <title>Even more semantic html5</title>
+</head>
+<body>
+    <header>
+        <h1>Even more semantic html</h1>
+        <time datetime="2023-10-9">October 9th, 2023</time>
+    </header>
+    <main>
+        <section>
+            <h2>Semantic Highlighter</h2>
+            <p><strong> ipsum dolor </strong>sit amet consectetur adipisicing elit. <mark>Exercitationem eveniet molestiae debitis ipsum totam modi quae odio nulla est facere ducimus</mark>, <em>beatae, illo, quas voluptatum eaque!</em> Magni officia enim nisi.</p>
+            <p> a Eat EAT EATer.    <i>gon EAT EAT EAT</i> </p>
+        </section>
+        <section>
+            <h2> quotes and citations</h2>
+            <blockquote cite="https://www.linkedin.com/pulse/25-inspiring-quotes-from-mahatma-gandhi-ravi-pratap-singh">
+                <q>you must be the change you wish to see in the world.</q>
+                <cite> - ghandi</cite>
+            </blockquote>
+        </section>
+        <section>
+            <h2>abbreviations and acronyms</h2>
+            <abbr title="Computer Science">CSCI</abbr>
+            <abbr title="Alliance for TEchnology Learning and Scoiety">ATLAS</abbr>
+        </section>
+        <section>
+            <h2>Details</h2>
+            <details>
+                
+                <summary>faq 1</summary>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa quidem quibusdam ratione dignissimos, cum quae porro totam ea accusamus optio itaque laudantium perferendis beatae natus error distinctio excepturi enim libero.</p>
+            </details>
+        </section>
+        <section>
+            <h2>Displaying code</h2>
+            <pre>
+                <code>
+                    &lt;html&gt;
+                      &lt;head&gt;
+                       &lt;title&gt;
+                       &lt;/title&gt;
+                      &lt;/head&gt;
+                      &lt;body&gt;
+                      &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+            </pre>
+        </section>
+        <section id="accessibility table">
+        <h2>Accessibility Table</h2>
+        <table>
+            <caption>people that can kill you</caption>
+            <thead>
+            <tr>
+                <th scope="col">PG</th>
+                <th scope="col">SG</th>
+                <th scope="col">SF</th>
+                <th scope="col">PF</th>
+                <th scope="col">C</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Steph Curry</td>
+                <td>Devin Booker</td>
+                <td>Jimmy Butler</td>
+                <td>Lebron James</td>
+                <td>Nikola Jokić</td>
+            </tr>
+            <tr>
+                <td>Jalen Brunson</td>
+                <td>Shai Gilgeous Alexander</td>
+                <td>Anthony Edwards</td>
+                <td>Kevin Durant</td>
+                <td>Bam Adebayo</td>
+            </tr>
+        </tbody>
+        </table>
+
+    </section>
+
+    <section id="form">
+        <h2>accessible forms done right!</h2>
+        <form id="myform" method="post">
+            <fieldset>
+                <legend>give us your information!</legend>
+                <label for="name">what is your name?
+                    <input type="text" required>
+                </label>
+                
+                <label for="your-email">what is your email
+                    <input type="email" id="your-email" required>
+
+                </label>
+                <label for="phone">
+                    what is phone number?
+                    <input type="tel" id="phone" minlength="7" >
+                </label>
+
+                <label for="password">
+                    what is your favorite password?
+                    <input type="text" id="password" maxlength="20" minlength="5" pattern="(?=.*\d)(?=.*[A-Z])(?.*[a-z])(?.*[@#$%^&+!]).*" required>
+                    <ul class="inputRequirements">
+                        <li> must be at least 5 characters long</li>
+                    </ul>
+                </label>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </section>
+    </main>
+<footer>
+    <p>site by Carter
+    <address>
+        <a href="mailto:caha8378@colorado.edu">email</a>
+    </address>
+    <small>&copy; 2023</small></p>
+</footer>
+</body>
+</html>
