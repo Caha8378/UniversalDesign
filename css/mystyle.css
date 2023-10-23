@@ -68,6 +68,39 @@ body {
     display: block;
     margin-bottom: 10px;
   }
+  #hp  {
+    float: right;    
+     margin: 0 0 0 15px;
+    }
+
+    .skip {
+      position: absolute;
+      left: -10000px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+    .skip:focus {
+      position: static;
+      width: auto;
+      height: auto;
+    }
+
+    .homeDiv{
+      position:absolute;
+      top: 123px;
+    }
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    
+
 
   .sr-only {
     border: 0;

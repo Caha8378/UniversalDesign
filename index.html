@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>NBA Stocks</title>
 </head>
 <body>
     <div class="container">
     <header>
-        <h1>NBA Stocks</h1>
+        <a href="#main" class="skip">Skip to main content</a>
+        <h1><abbr title="National Basketball Association">NBA</abbr> Stocks</h1>
     </header>
     <nav>
         <h2 class="sr-only">main navigation</h2>
@@ -22,14 +24,24 @@
         </ul>
     </nav>
 
-    <main>
+    <main id="main">
+        <div id="homeDiv">
+        <span class="material-symbols-outlined">
+            home
+            </span>
+            <span class="material-symbols-outlined">
+                shopping_cart_checkout
+                </span>
+        </div>
         <section id="rules">
             <h2>Rules and Regulations</h2>
-            <p>Welcome to the NBA Stock Market! Buy up to 5 stocks and the values of the stock change based on what other users are buying.</p>
-            <p>Stocks liquify after the end of the season. If your team gets a top 4 pick, you lose the stock and they reset at a new value. If your pick wins the NBA championship, your stock liquifies for twice its value.</p>
+            <p>Welcome to the NBA Stock Market! Buy up to 5 stocks and the values of the stock change based on what other users are buying. <img src="img/stockArrow.jpeg" alt="Stock Market arrow trending upwards" width="300" id="hp" ></p>
+            <p>Stocks liquify after the end of the season. If your team stock gets a top 4 pick, you lose the stock and they reset at a new value. If your team stock wins the NBA championship, your stock liquifies for twice its value.</p>
+            
         </section>
             
             <section id="stockLeaders">
+                <br><br><br>
                 <h2>Current NBA Stock Leaders</h2>
                 <table>
                     <caption>Highest Priced Team-Stocks</caption>
