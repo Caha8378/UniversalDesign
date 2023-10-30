@@ -21,14 +21,7 @@ header, footer {
     text-align: center;
 }
 
-a {
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    padding: 1em;
-    margin: 1em;
-    border: black solid;
-  }
+
 
 .container {
     max-width: 1200px;
@@ -62,8 +55,17 @@ nav ul {
 }
 
 nav ul li {
-    list-style: circle;
+    list-style: none;
 }
+
+nav ul li a {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 1em;
+    margin: 1em;
+    border: black solid;
+  }
 
 @media screen
  and (min-width: 641px)
