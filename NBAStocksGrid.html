@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="css/responsive.css" rel="stylesheet">
+    <title>NBA Stocks</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <a href="#main" class="skip">Skip to main content</a>
+        <h1><abbr title="National Basketball Association">NBA</abbr> Stocks</h1>
+    </header>
+    <nav>
+        <h2 class="sr-only">main navigation</h2>
+        
+        <ul>
+            <li><a href="#rules">Stock Rules</a></li>
+            <li><a href="#stockLeaders">Stock Leaders Chart</a></li>
+            <li><a href="#risersFallers">Risers and Fallers of the week</a></li>
+            <li><a href="#orderForm">Place an order on your team's nba stock</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <div id="homeDiv">
+        <span class="material-symbols-outlined">
+            home
+            </span>
+            <span class="material-symbols-outlined">
+                shopping_cart_checkout
+                </span>
+        </div>
+        <section id="rules">
+            <h2>Rules and Regulations</h2>
+            <p>Welcome to the NBA Stock Market! Buy up to 5 stocks and the values of the stock change based on what other users are buying.</p>
+            <p>Stocks liquify after the end of the season. If your team stock gets a top 4 pick, you lose the stock and they reset at a new value. If your team stock wins the NBA championship, your stock liquifies for twice its value.</p>
+        </section>
+            <section id="orderForm">
+                <h2>Order Form</h2>
+                
+                    <form id="myform" method="post">
+                        <fieldset>
+                            <legend>give us your information!</legend>
+                            <label for="buy/sell">buy/sell
+                                <select id="buy/sell" required>
+                                    <option value="" disabled selected>select an action</option>
+                                    <option value="buy">Buy</option>
+                                    <option value="sell">Sell</option>
+                                </select>
+                            </label>
+
+                            <label for="teamName">Team
+                                <input type="text" id="teamName" required>
+                            </label>
+                            <input type="submit">
+                        </fieldset>   
+                        </form>           
+            </section>
+    </main>
+    <aside id="aside1">
+        <h2>Stock Prices</h2>
+        <section id="stockLeaders">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Rank</td>
+                        <td>Team</td>
+                        <td>Value</td>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Celtics</td>
+                    <td>8.5</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nuggets</td>
+                    <td>8.4</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Suns</td>
+                    <td>7.7</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Lakers</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Mavericks</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Timberwolves</td>
+                    <td>6.9</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Bucks</td>
+                    <td>6.8</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>76ers</td>
+                    <td>6.7</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Thunder</td>
+                    <td>6.5</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Heat</td>
+                    <td>6.5</td>
+                </tr>
+                
+                
+            </tbody>
+            
+            </tbody>
+            </table>
+    
+        </section> 
+      </aside>
+      <aside id="aside2">
+        <h2>Risers and Fallers of the week</h2>
+        <section id="risersFallers">
+            <h3>Biggest risers and fallers of the week</h3>
+            <h4>Biggest Risers:</h4>
+            <ul>
+                <li>Thunder: 4.8 (from 3.7)</li>
+                <li>Celtics: 8.3 (from 7.3)</li>
+            </ul>
+            <h4>Biggest Fallers:</h4>
+            <ul>
+                <li>Wizards: 1.2 (from 2.8)</li>
+                <li>Bulls: 3.4 (from 4.3)</li>
+                
+            </ul>
+        </section>
+      </aside>
+        <footer>
+            <p>designed by carter harrington</p>
+            <address>caha8378@colorado.edu</address>
+            <small>&copy; 2023</small>
+        </footer>
+    </div> <!--end container-->
+</body>
+</html>
