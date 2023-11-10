@@ -4,15 +4,11 @@
 
 body {
     background-color: #E6D7A1;
-    font-family: 'Onest', sans-serif;
-    font-size: 16px;
-    
-  }
-
+}
 
   p {
 
-    color: #003B4A;
+    color: black;
     line-height: 1.3em;
   }
 
@@ -41,9 +37,10 @@ a:link {
     margin-left: 10px;
     font-family: 'Zilla Slab', serif;
   }
-  main {
+main {
     padding-top: 18px;
-  }
+    
+}
 
 
   table, th, td {
