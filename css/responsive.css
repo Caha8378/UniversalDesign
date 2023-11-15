@@ -9,12 +9,11 @@ body {
 }
 
 header,
-nav,
 main,
 aside,
-footer {
+footer, #nav1{
     padding: 1.5em;
-    border: 1px black solid;
+    border: 1.75px black solid;
 }
 
 header, footer {
@@ -41,31 +40,17 @@ header, footer {
 
 
 header {grid-area: header1; background: #A0BCE6;}
-nav {grid-area: nav1; background: #E6D7A1;}
+#nav1 {grid-area: nav1; background: #E6D7A1;}
 main {grid-area: main1; background: #E6D7A1;}
 #aside1 {grid-area: aside1; background: #A0BCE6;}
 #aside2 {grid-area: aside2; background: #A0BCE6;}
 footer {grid-area: footer1; background: #A0BCE6;}
 
-
-nav ul {
-    display: block;
-    justify-content: space-around;
+#nav1 ul li{
+    display: inline-block;
+    padding-right: 40px;
 }
 
-nav ul li {
-    list-style: none;
-}
-
-    nav ul li a {
-        display: block;
-        position: relative;
-        z-index: 1;
-        padding: 1em;
-        margin: 1em;
-        border: black solid;
-        width: auto;
-    }
 
 @media screen
  and (min-width: 641px)

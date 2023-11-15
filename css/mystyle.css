@@ -5,6 +5,9 @@
 body {
     background-color: #28282B;
 }
+footer {
+    color: #E6D7A1;
+}
 
 p {
     color: #E6D7A1;
@@ -12,7 +15,7 @@ p {
 }
 
 a:link {
-    color: #E6D7A1;
+    color: black;
     line-height: 1.3em;
 }
 
@@ -28,10 +31,15 @@ a:link {
     margin: 0 auto 0 auto;
   }
 
+li {
+    color: #E6D7A1;
+}
+
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     color: #E6D7A1;
     margin-left: 10px;
     font-family: 'Zilla Slab', serif;
@@ -44,21 +52,25 @@ main {
 
   table, th, td {
     border-collapse: collapse;
-    color: #E6D7A1
+    color: #E6D7A1;
   }
   
   table {
     margin-bottom: 30px;
   }
-  td {
-    border: 2px solid black;
+td {
+    border: 2px solid #E6D7A1;
     padding-right: 20px;
     text-align: center;
-  }
+}
   th {
     font-weight: bolder;
     font-size: xx-large
   }
+
+form {
+    color: #E6D7A1;
+}
 
 input:focus {
     background: lightgrey;

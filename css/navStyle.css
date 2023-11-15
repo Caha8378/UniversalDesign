@@ -1,15 +1,6 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
-.skip-link {
-    background: black;
-    color: #fff;
-    font-weight: 700;
-    padding-top: 50px;
-    position: absolute;
-    
-} 
-
 nav {
     background-color: white;
     position: fixed;
@@ -44,102 +35,6 @@ nav {
                 margin-bottom: 0;
                 margin-top: 50px;
                 padding-top: 10px;
-                color: #353935
+                color: whitesmoke;
             }
             
-
-body {
-    background-color: whitesmoke;
-}
-
-*, *:before, *:after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-header,
-main,
-aside,
-footer {
-    padding: 1.5em;
-    border: 1px #E6D7A1 solid;
-}
-
-header, footer {
-    text-align: center;
-}
-
-.container {
-    max-width: 1500px;
-    margin: 0 auto;
-    background: black;
-    display: grid;
-    width: 100vw;
-    height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-        "header1"
-        "nav1"
-        "main1"
-        "aside1"
-        "aside2"
-        "footer1";
-}
-
-
-
-#header1 {
-    grid-area: header1;
-    background-color: #28282B;
-}
-
-
-
-#main1 {
-    grid-area: main1;
-    background-color: #28282B;
-    
-}
-
-#aside1 {
-    grid-area: aside1;
-    background-color: #28282B;
-}
-
-#aside2 {
-    grid-area: aside2;
-    background-color: #28282B;
-}
-
-footer {
-    grid-area: footer1;
-    background-color: #28282B;
-}
-
-
-    @media screen and (min-width: 641px) and (max-width: 900px) {
-        .container {
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas:
-                "header1 header1"
-                "nav1 nav1"
-                "main1 main1"
-                "aside1 aside2"
-                "footer1 footer1";
-        }
-    }
-
-    @media screen and (min-width: 900px) {
-        .container {
-            grid-template-columns: 1fr 2fr 1fr;
-            grid-template-areas:
-                "header1 header1 header1"
-                "nav1 nav1 nav1"
-                "aside1 main1 aside2"
-                "aside1 main1 aside2"
-                "aside1 main1 aside2"
-                "footer1 footer1 footer1";
-        }
-
-    
