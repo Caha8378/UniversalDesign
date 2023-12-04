@@ -3,33 +3,68 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Universal Design Class Portal</title>
     <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/navStyle.css">
+    <link rel="stylesheet" href="css/indexStyle.css">
 </head>
-<body>
-    <nav>
+<body id="body1">
+    <div class="container">
+       
+        <a class="skip-link" href="#main1">Skip to main content</a>
         
-        <ul>
-            <li><a href="index.html" style="float: left;">Home</a></li>
-            <li><a href="jokicwiki.html">Wiki Project</a></li>
-            <li><a href="nbaStocks-table.html">Accessible Tables and Forms Project</a></li>
-            <li><a href="NBAStocksGrid.html">Grid Page</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h1>About Me</h1>
-    <p>
-        I am a senior, computer science major at CU Boulder. I grew up in Denver. I play tennis and golf and I
-        enjoy watching basketball and football. This is my dog Casper.
-    </p>
+        <nav>
 
-    <img id="casper " src="img/casper.jpg" alt="my dog casper" width="200" height="250" />
-    <br />
-    <button type="button" onclick="woof()" id="buttonID">click to talk to casper</button>
-    <script>function woof() {
-    alert("woof");
-        }
-    </script>
-    </main>
-    
+            <ul>
+                <li><a href="index.html" style="float: left;">Home</a></li>
+                <li><a href="jokicwiki.html">Wiki Project</a></li>
+                <li><a href="nbaStocks-table.html">Accessible Tables and Forms Project</a></li>
+                <li><a href="NBAStocksGrid.html">Grid Page</a></li>
+            </ul>
+        </nav>
+        <header id="header1">
+            <h1>About Me</h1>
+            <br />
+            <h2>Carter Harrington</h2>
+            
+        </header>
+        <main id="main1">
+            <h2>Quote of the day</h2>
+            <br />
+            <h3>"Standin on bidness, one man army"</h3>
+            <br />
+            <img src="img/flatirons.jpg" alt="flatirons" width="700"/>
+
+        </main>
+
+        <aside id="aside1">
+            <h2>Thought of the day</h2>
+            <br />
+            <p>
+                Everyone wants to be a dog, but if you really think about it wouldn't you rather be a cat? I dont have a cat, I have a dog, however, I think this topic needs some deeper analysis. Most people don't even know what they want. Or if they do, how do we know that we want the right things. This brings me to my original point of why we admire dogs so much. They live the simple life, they appreciate the little things. That sounds great, but what if the highlight of your day is when your owner finally comes home. Dogs can be content. Humans however...
+            </p>
+        </aside>
+
+
+        <aside id="aside2">
+            <h2>Casper: my day 1</h2>
+            <br />
+            <img id="casper " src="img/casper.jpg" alt="my dog casper" width="200" height="250" />
+            <br />
+            <button type="button" onclick="woof()" id="buttonID">click to talk to casper</button>
+            <script>
+                function woof() {
+                    alert("woof");
+                }
+            </script>
+        </aside>
+        <footer>
+            <p>designed by carter harrington</p>
+            <address>caha8378@colorado.edu</address>
+            <small>&copy; 2023</small>
+        </footer>
+
+    </div>
+</body>
 </html>

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Onest&family=Zilla+Slab:ital,wght@1,600&display=swap');
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+
+#fullnav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 3px solid transparent;
+    border-bottom-color: dimgrey;
+} 
+#fullnav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#fullnav ul li {
+        border-right: 2px solid #E6D7A1;
+    }
+
+    #fullnav ul li a {
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: navy;
+        }
+
+body {
+    background-color: #E6D7A1;
+}
+
+#nav1 {
+    font-size: 24px;
+    text-decoration: solid;
+    text-align: center;
+}
+
+#nav1 ul {
+    display: flex;
+        margin: 0;
+        padding-right: 10px;
+        list-style-type: disc;
+        color: black;
+}
+#nav1 ul li {
+    padding-right: 50px;
+}
+#nav1 ul li a {
+    padding: 14px 16px;
+}
+
+footer {
+    color: black;
+}
+
+p {
+    color: black;
+    line-height: 1.3em;
+}
+
+a:link {
+    color: black;
+    line-height: 1.8em;
+}
+
+
+  a:visited {
+    color: #1D438A;
+  }
+
+
+
+  .container{
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+  }
+
+h1,
+h2,
+h3,
+h4 {
+    color: black;
+    margin-left: 10px;
+    font-family: 'Zilla Slab', serif;
+}
+main {
+    padding-top: 18px;
+    
+}
+
+.skip-link {
+    background-color: antiquewhite;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 50px;
+    position: absolute;
+}
+
+
+h1 {
+    font-family: 'Bebas Neue', serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 50px;
+    padding-top: 10px;
+    color: black;
+}
+
+
+body {
+    background-color: #E6D7A1;
+}
+
+
+header,
+main,
+aside,
+footer, #nav1 {
+    padding: 1.5em;
+    border: 3px black solid;
+}
+
+header, footer {
+    text-align: center;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    background: #E6D7A1;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+            "header1"
+            "nav1"
+            "main1"
+            "aside1"
+            "aside2"
+            "aside3"
+            "footer1";
+}
+
+
+
+#header1 {
+    grid-area: header1;
+    background-color: #E6D7A1;
+}
+
+
+
+#main1 {
+    grid-area: main1;
+    background-color: #E6D7A1;
+}
+
+#why {
+    grid-area: aside1;
+    background-color: #E6D7A1;
+}
+
+#what {
+    grid-area: aside2;
+    background-color: #E6D7A1;
+}
+#how {
+    grid-area: aside3;
+    background-color: #E6D7A1;
+}
+
+footer {
+    grid-area: footer1;
+    background-color: #E6D7A1;
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header1"
+            "nav1"
+            "main1"
+            "aside1"
+            "aside2"
+            "aside3"
+            "footer1";
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header1"
+            "nav1"
+            "main1"
+            "aside1"
+            "aside2"
+            "aside3"
+            "footer1";
+    }
+}
+
+#hp  {
+    float: right;    
+     margin: 0 0 0 15px;
+    }
+
+    .skip {
+      position: absolute;
+      left: -10000px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+    .skip:focus {
+      position: static;
+      width: auto;
+      height: auto;
+    }
+
+    .homeDiv{
+      position:absolute;
+      top: 123px;
+    }
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+    
+
+
+  .sr-only {
+    border: 0;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }

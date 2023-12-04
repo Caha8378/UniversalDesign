@@ -3,46 +3,22 @@
 
 
 body {
-    background-color: #E6D7A1;
-    font-family: 'Onest', sans-serif;
-    font-size: 16px;
-    
-  }
-
-  nav {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-  nav ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    
+    background-color: #28282B;
 }
-nav ul li{
-  border-right: 2px solid #E6D7A1;
+footer {
+    color: #E6D7A1;
 }
 
-nav ul li a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  color: aliceblue;
+p {
+    color: #E6D7A1;
+    line-height: 1.3em;
 }
 
-  p {
+a:link {
     color: black;
     line-height: 1.3em;
-  }
+}
 
-  a:link {
-    color: #1D438A;
-  }
 
   a:visited {
     color: #1D438A;
@@ -55,39 +31,52 @@ nav ul li a {
     margin: 0 auto 0 auto;
   }
 
-  h1, 
-  h2, 
-  h3 {
-    color: black;
+li {
+    color: #E6D7A1;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    color: #E6D7A1;
     margin-left: 10px;
     font-family: 'Zilla Slab', serif;
-  }
-  main {
+}
+main {
     padding-top: 18px;
-  }
+    
+}
+
 
   table, th, td {
     border-collapse: collapse;
+    color: #E6D7A1;
   }
   
   table {
     margin-bottom: 30px;
   }
-  td {
-    border: 2px solid black;
+td {
+    border: 2px solid #E6D7A1;
     padding-right: 20px;
     text-align: center;
-  }
+}
   th {
     font-weight: bolder;
     font-size: xx-large
   }
 
-  input:focus {
+form {
+    color: #E6D7A1;
+}
+
+input:focus {
     background: lightgrey;
-    color: black;
+    color: #E6D7A1;
     border: 4px solid yellow;
-  }
+}
 
   input:valid{
     border: 2px solid green;
