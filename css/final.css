@@ -75,7 +75,7 @@ footer {
 p {
     color: black;
     line-height: 1.3em;
-    font-size: 18px
+    font-size: 16px
 }
 
 a:link {
@@ -142,6 +142,11 @@ footer, #nav1 {
 
 header, footer {
     text-align: center;
+}
+#howlist li {
+    font-size: 20px;
+    font-weight: bold;
+    
 }
 
 .container {

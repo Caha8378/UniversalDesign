@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Onest&family=Zilla+Slab:ital,wght@1,600&display=swap');
 
+#stocklist li a {
+    color:white;
+}
 
 body {
     background-color: #28282B;
