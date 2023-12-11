@@ -165,17 +165,27 @@ header, footer {
             "aside1"
             "aside2"
             "aside3"
+            "form"
             "footer1";
 }
 
-
+.skip-link {
+    background-color: antiquewhite;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 50px;
+    position: absolute;
+}
 
 #header1 {
     grid-area: header1;
     background-color: #E6D7A1;
 }
 
-
+#form {
+    grid-area: form;
+    background-color: #E6D7A1;
+}
 
 #main1 {
     grid-area: main1;
@@ -212,6 +222,7 @@ footer {
             "aside1"
             "aside2"
             "aside3"
+            "form"
             "footer1";
     }
 }
@@ -226,6 +237,7 @@ footer {
             "aside1"
             "aside2"
             "aside3"
+            "form"
             "footer1";
     }
 }

@@ -9,7 +9,8 @@
     <title>Final Project</title>
 </head>
 <body>
-    <a href="#main1" class="skip">Skip to main content</a>
+    
+    <a href="#main1" class="skip-link">Skip to main content</a>
     <nav id="fullnav">
 
         <ul>
@@ -20,7 +21,7 @@
             <li><a href="final.html">Final Project</a></li>
         </ul>
     </nav>
-    <div class="container">
+    <div class="containter">
         <header>
 
             <h1><abbr title="Universal Design">UD</abbr> The importance of Universal Design and Accessible Technology</h1>
@@ -59,6 +60,23 @@
         <aside id="how">
             <a href="how.html"><h1>HOW?</h1></a>
             <h2>Click to see how Universal Design is accomplished (it's not that hard!)</h2>
+        </aside>
+        <aside id="form">
+            <h2>Questions or Concerns?</h2>
+            <form id="myform" method="post">
+                <fieldset>
+                    <legend>Submit a Question or Concern about Universal Design!</legend>
+
+                    <label for="email">
+                        Email Address
+                        <input type="text" id="email" placeholder="abc@def.com" required>
+                    </label>
+                    <br />
+                    <label><textarea id="QC" name="Concerns" rows="4" cols="50" placeholder="enter text here"></textarea></label>
+                    <br>
+                    <input type="submit" onclick="return alert('order received');">
+                </fieldset>
+            </form>
         </aside>
         <footer id="footer1">
             <p>designed by carter harrington</p>
