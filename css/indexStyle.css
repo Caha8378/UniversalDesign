@@ -52,6 +52,8 @@ header, footer {
     grid-template-columns: 1fr;
     grid-template-areas:
         "header1"
+        "header2"
+        "aside3"
         "nav1"
         "main1"
         "aside1"
@@ -65,7 +67,10 @@ header, footer {
     grid-area: header1;
     background-color: #28282B;
 }
-
+ #header2 {
+     grid-area: header2;
+     background-color: #28282B;
+ }
 
 
 #main1 {
@@ -82,6 +87,10 @@ header, footer {
     grid-area: aside2;
     background-color: #28282B;
 }
+#aside3 {
+    grid-area: aside3;
+    background-color: #28282B;
+}
 
 footer {
     grid-area: footer1;
@@ -94,6 +103,7 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
             "header1 header1"
+            "header2 aside3"
             "nav1 nav1"
             "main1 main1"
             "aside1 aside2"
@@ -106,6 +116,7 @@ footer {
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-areas:
             "header1 header1 header1"
+            "header2 header2 aside3"
             "nav1 nav1 nav1"
             "aside1 main1 aside2"
             "aside1 main1 aside2"
